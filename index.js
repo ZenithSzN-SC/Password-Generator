@@ -7,12 +7,15 @@ let genPass1El = document.getElementById("genPass1")
 let genPass2El = document.getElementById("genPass2")
 
 function randomIndex(){
-            return Math.floor(Math.random() * characters.length)
-        }
+    return Math.floor(Math.random() * characters.length)
+}
+function randomPassIndex(){
+    return Math.floor(Math.random() * 16) + 8
+}
 
 function generatePass(){
     clearPass()
-    for (let i = 0; i < 8; i++){
+    for (let i = 0; i < randomPassIndex(); i++){
         
         randomPass += characters[randomIndex()]
         randomPass2 += characters[randomIndex()]

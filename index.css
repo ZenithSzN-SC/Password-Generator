@@ -1,16 +1,16 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: coral;
+    background: #E2A16F;
     font-family: Karla;
     color: white;
 }
 
-div {
+#card {
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 350px;
     height: 400px;
     background-color: #1F2937;
     border: 5px solid white;
@@ -28,6 +28,18 @@ button {
     border: none;
     border-radius: 6px;
     padding: 9px 17px 9px 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+hr{
+    border: none;
+    height: 2px;
+    background-color: #273549;
+    width: 333px;
+    margin-top: 10px;
+    margin-left: 0;
+
+
 }
 .entry {
     background: #273549;
@@ -35,4 +47,11 @@ button {
     border-radius: 6px;
     width: 150px;
     height: 20px;
+    color: #55F991;
+}
+
+#card-pass {
+    display: flex;
+    flex-direction: row;
+    gap: 10px 20px;
 }
